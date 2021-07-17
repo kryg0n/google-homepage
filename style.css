@@ -49,7 +49,7 @@ footer {
 
 header #sign-in-btn {
   text-decoration: none;
-  border: 0;
+  border: 1px solid #4285f4;
   border-radius: 0;
   background-color: #4285f4;
   font-weight: bold;
@@ -75,6 +75,18 @@ header #sign-in-btn:hover {
   display: flex;
   flex-direction: row;
   border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  max-height: 2rem;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  width: 480px;
+  padding: 10px;
+}
+#search-bar:hover::after {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #898d94;
   border-radius: 25px;
   max-height: 2rem;
   align-items: center;
